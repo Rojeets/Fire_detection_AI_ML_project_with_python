@@ -18,8 +18,8 @@ Follow these steps to set up the project locally:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/fire-detection.git
-   cd fire-detection
+   git clone https://github.com/Rojeets/Fire_detection_AI_ML_project_with_python.git
+   cd Fire_detection_AI_ML_project_with_python
 2. Set Up a Virtual Environment:
 
    ```bash
@@ -30,28 +30,17 @@ Follow these steps to set up the project locally:
    venv\Scripts\activate
 3. Install Dependencies:
 
-   Create a requirements.txt file with the following content:
-
-      ```text
-      opencv-python
-      numpy
-      playsound
-
- Then, install the dependencies:
-
-      
-      pip install -r requirements.txt
+         pip install -r requirements.txt
    
 4. Set Up Environment Variables:
 
-For security reasons, store your email credentials and other sensitive data as environment variables. You can create a .env file or set them directly in your environment. Example .env file:
+   For security reasons, store your email credentials and other sensitive data as environment variables. You can create a .env file or set them directly in your environment. Example .env file:
    
-      
-      EMAIL_USER=your-email@gmail.com
-      EMAIL_PASS=your-email-password
+         EMAIL_USER=your-email@gmail.com
+         EMAIL_PASS=your-email-password
    Make sure to load these variables in your script using a library like python-dotenv if you choose to use a .env file.
 
-5. Prepare the Alarm Sound File:
+6. Prepare the Alarm Sound File:
 
    Ensure you have an alarm sound file named alarm-sound.mp3 in the project directory.
 
@@ -89,10 +78,9 @@ For security reasons, store your email credentials and other sensitive data as e
 
 
 ### Notes:
-- **Replace placeholders:** Make sure to replace placeholders like `https://github.com/your-username/fire-detection.git`, `your-email@gmail.com`, and `your-email-password` with actual values relevant to your project.
 - **Security:** Ensure sensitive data (like email credentials) is managed securely and avoid hardcoding them directly in the script.
 
-This `README.md` should provide clear instructions for setting up, running, and contributing to the project. If you have any additional requirements or need further customization, feel free to ask!
+This `README.md` should provide clear instructions for setting up, running, and contributing to the project.
 
 
 
