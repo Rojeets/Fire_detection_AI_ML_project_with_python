@@ -42,7 +42,7 @@ Follow these steps to set up the project locally:
       
       pip install -r requirements.txt
    
-3. Set Up Environment Variables:
+4. Set Up Environment Variables:
 
 For security reasons, store your email credentials and other sensitive data as environment variables. You can create a .env file or set them directly in your environment. Example .env file:
    
@@ -51,7 +51,7 @@ For security reasons, store your email credentials and other sensitive data as e
       EMAIL_PASS=your-email-password
    Make sure to load these variables in your script using a library like python-dotenv if you choose to use a .env file.
 
-4. Prepare the Alarm Sound File:
+5. Prepare the Alarm Sound File:
 
    Ensure you have an alarm sound file named alarm-sound.mp3 in the project directory.
 
